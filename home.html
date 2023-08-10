@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Store</title>
+    <link rel="stylesheet" href="home.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="mainContainer">
+      <header>
+        <div id="header">
+          <div id="head">
+            <div id="tytle">Inventory Management</div>
+            <div id="icons">
+              <a href="./home.html"><i class="material-icons" id="iconHome">home</i></a>
+              <a href="./addProduct.html"><i class="material-icons" id="iconAdd">add_circle_outline</i></a>
+            </div>
+          </div>
+          <div id="filter">
+            <div id="buttons">
+              <button class="buttons" id="CategoryAllProducts">All Products</button>
+              <button class="buttons" id="CategoryMen" name="men's clothing">Men</button>
+              <button class="buttons" id="CategoryWomen" name="women's clothing">Women</button>
+              <button class="buttons" id="CategoryJewelry" name="jewelery">Jewelry</button>
+              <button class="buttons" id="CategoryElectronics" name="electronics">Electronics</button>
+            </div>
+            <div id="containerSearch">
+              <input placeholder="Search" id="search">
+              <i class="material-icons" id="iconSearch">search</i>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main id="center">
+          <div>
+            <h1 id="products">Products</h1>
+          </div>
+          <div id="productContainer"></div>
+      </main>
+      <footer>
+        <div id="footer">
+          <p>Technical Support</p>
+          <i class="material-icons" id="iconPhone">phone</i>
+          <p>+1.555.555.5555</p>
+        </div>
+      </footer>
+    </div>
+    <script src="./home.js"></script>
+  </body>
+</html>
